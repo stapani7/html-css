@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+    header {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav {
+        background-color: grey;
+        padding: 3px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.486);
+    }
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav > a:hover {
+        text-decoration: underline;
+    }
+
+    nav > a:active {
+        color: red;
+    }
+
+    main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px 0px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.37);
+    }
+
+    section {
+        background-color: lightgrey;
+    }
+
+    article {
+        background-color: lightgrey;
+    }
+
+    article > aside {
+        background-color: darkgrey;
+    }
+
+    footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+    }
+
+    footer > p {
+        margin: 4px;
+        color: rgb(99, 99, 99);
+    }
+    
+    div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50px;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sapiente eveniet cumque impedit ex mollitia debitis voluptatibus, tempore repellendus eius veniam recusandae! Illo debitis, molestiae praesentium aliquid mollitia aspernatur quis?</p>
+            </article>
+            <article>
+            <aside>
+                <p>Artigo escrito por Jose da Silva</p>
+            </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Powered by Mateus Stapani</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
