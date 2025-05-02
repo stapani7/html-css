@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            color: rgb(0, 0, 0);
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+            position: relative;
+        }
+
+        thead, tfoot {
+            background-color: lightgreen;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col" style="width: 40px;">Idade</th>
+                <th scope="col">Time</th>
+                <th scope="col">Nacionalidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Neymar Jr</td>
+                <td>33</td>
+                <td>Santos FC</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Pablo Vegetti</td>
+                <td>36</td>
+                <td>Vasco da Gama</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Tiquinho Soares</td>
+                <td>34</td>
+                <td>Santos FC</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>Raphael Veiga</td>
+                <td>29</td>
+                <td>SE Palmeiras</td>
+                <td>Brasil</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Liga:</th>
+                <td><strong>Brasileirao Betano</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
