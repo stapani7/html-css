@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required maxlength="50" minlength="3" pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+" title="O nome deve conter apenas letras e espaços" placeholder="Digite seu nome" autocomplete="name">
+        </p>
+        
+        <p>
+            <label for="imedia">
+                Media:
+                <input type="number" name="media" id="imedia" min="0" max="10" step="0.5" required placeholder="0 a 10">
+            </label>
+        </p>
+
+        <p>
+            <label for="idata">Data:</label>
+            <input type="date" name="data" id="idata" required placeholder="05/2025">
+        </p>
+
+        <p>
+            <label for="ihora">Hora:</label>
+            <input type="time" name="hora" id="ihora" required placeholder="HH:MM">
+        </p>
+
+        <p>
+            <label for="itelefone">Telefone:</label>
+            <input type="tel" name="telefone" id="itelefone" required placeholder="(XX) XXXXX-XXXX" pattern="\(\d{2}\) \d{5}-\d{4}" title="Formato: (XX) XXXXX-XXXX">
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p> 
+        
+    </form>
+</body>
+</html>
