@@ -32,12 +32,3 @@ O curso aborda os fundamentos da construção de páginas web utilizando **HTML5
 ---
 
 ## 📁 Organização do repositório
-
-📂 curso-html-css
-├── 📁 aulas
-│ ├── aula01-estrutura
-│ ├── aula02-formatacao
-│ ├── ...
-├── 📁 desafios
-├── 📁 extras
-├── 📄 README.md
