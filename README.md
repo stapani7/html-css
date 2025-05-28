@@ -10,7 +10,7 @@ O curso aborda os fundamentos da construção de páginas web utilizando **HTML5
 
 **Plataforma:** [Curso em Vídeo](https://www.cursoemvideo.com/)  
 **Professor:** Gustavo Guanabara  
-**Status:** 📘 Em andamento | ✅ Concluído *(escolha conforme seu caso)*
+**Status:** 📘 Em andamento
 
 ---
 
@@ -32,3 +32,27 @@ O curso aborda os fundamentos da construção de páginas web utilizando **HTML5
 ---
 
 ## 📁 Organização do repositório
+
+---
+
+---
+
+## 🤝 Créditos
+
+Curso criado por [Gustavo Guanabara](https://github.com/gustavoguanabara)  
+Disponível gratuitamente em: [www.cursoemvideo.com](https://www.cursoemvideo.com/)
+
+---
+
+## 📌 Observações
+
+Este repositório tem fins **educacionais** e serve como base de estudos pessoais.  
+Sinta-se à vontade para contribuir, sugerir melhorias ou relatar problemas.
+
+---
+
+## 🧑‍💻 Autor
+
+Feito por **Mateus Stapani**  
+[GitHub: @stapani7](https://github.com/stapani7)
+
