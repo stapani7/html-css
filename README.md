@@ -33,7 +33,19 @@ O curso aborda os fundamentos da construção de páginas web utilizando **HTML5
 
 ## 📁 Organização do repositório
 
----
+📂 html-css
+├── 📁 exercicios
+│ ├── ex001/
+│ ├── ex002/
+│ └── ...
+├── 📁 desafios
+│ ├── d001/
+│ ├── d002/
+│ └── ...
+└── 📄 README.md
+
+-Exercicios: Códigos desenvolvidos durante as aulas.
+-Desafios: Desafios propostos ao final de cada módulo.
 
 ---
 
